@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.menu {   
+    list-style-type: none;
+}
+.logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+}
+.item {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 5px;
+}
+
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+
+.item {
+    order: 2;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.active .item {
+    display: block;
+}
+
+
+@media all and (min-width: 960px) {
+    .menu {
+        align-items: flex-start;     
+        flex-wrap: nowrap;
+        background: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+        position: relative;
+        display: block; 
+        width: auto;
+    }
+    .toggle {
+        display: none;
+    }
+}
+
+
+.about{
+    background: rgba( 255, 255, 255, 0.00 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    /* border-style: solid;
+    border-radius: 10px;
+    border-color: #f6614d; */
+}
+
+.about-margin{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.game{
+   width: 1000px; 
+}
+.bwn:hover{
+    background-color: #ffff;
+    font-size: large;
+}
+
+.bwf:hover{
+    font-size: large;
+}
+
+.block{
+    font-size: 300%;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+.cube{
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.top{
+    margin-bottom: 100px;
+}
+
+.contain{
+    margin-top: 10%;
+}
+
+.low{
+    margin-bottom: 10%;
+}
+
+.button1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.button1:hover{
+    font-size: large;
+}
+
+.why{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.why-row{
+    margin-bottom: 5%;
+}
+
+.onub{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.nubia{
+    margin-bottom: 5%;
+}
